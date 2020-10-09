@@ -24,7 +24,8 @@ class AbstractMelonOrder():
 
         today = datetime.date.today()
 
-        time = datetime.time.now()
+        #TODO test time.time()
+        time = datetime.time
 
         print(time)
 
